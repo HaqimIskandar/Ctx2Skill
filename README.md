@@ -72,7 +72,7 @@ pip install openai tqdm
 
 ### Data Preparation
 
-Download the CL-Bench dataset files and place them in the project root:
+Download the CL-Bench dataset from this link[https://huggingface.co/datasets/ssz1111/Ctx2Skill] files and place them in the project root:
 - `CL-bench-context-dedup.jsonl` — deduplicated contexts (used for skill generation)
 - `CL-bench-with-task-delimiter.jsonl` — tasks with delimiters (used for evaluation)
 
