@@ -6,7 +6,7 @@
 Ctx2Skill is a self-evolving framework that autonomously discovers, refines, and selects context-specific skills from complex contexts, requiring **no human annotation** and **no external feedback**. The resulting natural-language skills can be plugged into any language model at inference time to enhance context learning capability.
 
 <p align="center">
-  <img src="assets/intro.png" alt="Ctx2Skill Intro" width="90%">
+  <img src="assets/intro.png" alt="Ctx2Skill Intro" width="80%">
 </p>
 
 ## Overview
