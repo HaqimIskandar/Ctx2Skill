@@ -133,8 +133,7 @@ Ctx2Skill/
 │   ├── challenger_generator.txt
 │   ├── challenger_proposer.txt
 │   ├── reasoner_generator.txt
-│   ├── reasoner_proposer.txt
-│   └── modify.txt
+│   └── reasoner_proposer.txt
 └── run.sh                  # Example run script
 ```
 
