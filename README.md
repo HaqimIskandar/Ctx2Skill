@@ -68,7 +68,6 @@ Evaluated on four context learning tasks from CL-bench, Ctx2Skill consistently i
 ```bash
 git clone https://github.com/S1s-Z/Ctx2Skill.git
 cd Ctx2Skill
-pip install openai tqdm
 ```
 
 ### Data Preparation
