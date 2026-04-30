@@ -137,15 +137,6 @@ Ctx2Skill/
 └── run.sh                  # Example run script
 ```
 
-## Citation
-
-```bibtex
-@article{ctx2skill2025,
-  title={From Context to Skills: Can Language Models Learn from Context Skillfully?},
-  author={Anonymous},
-  year={2025}
-}
-```
 
 ## License
 
