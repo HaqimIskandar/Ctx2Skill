@@ -1,1 +1,0 @@
-只修改了generator在生成要求skill要求有name 和 description
