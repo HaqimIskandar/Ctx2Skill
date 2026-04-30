@@ -48,7 +48,7 @@ A key risk in self-play is **adversarial collapse** — the Challenger generates
 
 ## Results
 
-Evaluated on four context learning tasks from CL-Bench, Ctx2Skill consistently improves solve rates across backbone models:
+Evaluated on four context learning tasks from CL-bench, Ctx2Skill consistently improves solve rates across backbone models:
 
 | Model | Without Skills | With Ctx2Skill | Improvement |
 |-------|---------------|----------------|-------------|
@@ -86,11 +86,11 @@ export OPENAI_API_KEY="your-api-key"
 
 # Run the self-play skill discovery loop
 python selfplay_loop.py \
-    --challenger-model gpt-5.1 \
-    --reasoner-model gpt-5.1 \
+    --challenger-model gpt-4.1 \
+    --reasoner-model gpt-4.1 \
     --judge-model gpt-5.1 \
-    --proposer-model gpt-5.1 \
-    --generator-model gpt-5.1 \
+    --proposer-model gpt-4.1 \
+    --generator-model gpt-4.1 \
     --input ./CL-bench-context-dedup.jsonl \
     --output outputs/loop_data/loop_output.jsonl \
     --num-iterations 5 \
@@ -103,7 +103,7 @@ python selfplay_loop.py \
 
 ```bash
 python infer.py \
-    --model gpt-5.1 \
+    --model gpt-4.1 \
     --input ./CL-bench-with-task-delimiter.jsonl \
     --workers 32 \
     --skills-dir skills-output/reasoner \
