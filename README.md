@@ -138,6 +138,20 @@ Ctx2Skill/
 └── run.sh                  # Example run script
 ```
 
+## Citation
+
+```bibtex
+@misc{si2026contextskillslanguagemodels,
+      title={From Context to Skills: Can Language Models Learn from Context Skillfully?}, 
+      author={Shuzheng Si and Haozhe Zhao and Yu Lei and Qingyi Wang and Dingwei Chen and Zhitong Wang and Zhenhailong Wang and Kangyang Luo and Zheng Wang and Gang Chen and Fanchao Qi and Minjia Zhang and Maosong Sun},
+      year={2026},
+      eprint={2604.27660},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.27660}, 
+}
+```
+
 
 ## License
 
