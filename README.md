@@ -3,7 +3,7 @@
 
 > **Can Language Models Learn from Context Skillfully?**
 
-The code of our paper **"From Context to Skills: Can Language Models Learn from Context Skillfully? "**.
+The code of our paper "**From Context to Skills: Can Language Models Learn from Context Skillfully?** ".
 
 Ctx2Skill is a self-evolving framework that autonomously discovers, refines, and selects context-specific skills from complex contexts, requiring **no human annotation** and **no external feedback**. The resulting natural-language skills can be plugged into any language model at inference time to enhance context learning capability.
 
