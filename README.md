@@ -58,6 +58,8 @@ Evaluated on four context learning tasks from CL-bench, Ctx2Skill consistently i
 | GPT-5.1 | 21.2% | 25.8% | +4.6% |
 | GPT-5.2 | 18.2% | 21.4% | +3.2% |
 
+We conduct our experiments using the API from newapi, openai, and azure api.
+
 ## Quick Start
 
 ### Prerequisites
