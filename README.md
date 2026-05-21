@@ -81,7 +81,7 @@ Download the CL-Bench dataset from this [link](https://huggingface.co/datasets/s
 - `CL-bench-with-task-delimiter.jsonl` — tasks with delimiters (used for evaluation)
 - Evaluation logs and responses from GPT-4.1, GPT-5.1, and GPT-5.2.
 
-We also provide our generated reasoner skills at this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill-Skills).
+We also provide our generated and evolved reasoner skills at this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill-Skills).
 
 ### Running the Self-Play Loop
 
