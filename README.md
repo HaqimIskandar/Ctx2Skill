@@ -60,7 +60,7 @@ Evaluated on four context learning tasks from CL-bench, Ctx2Skill consistently i
 
 We conduct our experiments using newapi for GPT-4.1, and azure-api for GPT-5.1 and GPT-5.2. 
 
-We provide the logs and generated responses, e.g., Ctx2Skill - GPT-4.1 and GPT-4.1, in this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill) for reproducibility and analysis.
+We provide the logs and generated responses in this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill) for reproducibility and analysis.
 
 We recommend **GPT-5.2** for reproduction, as it yields the most consistent results during our early experiments. We also provide our generated skills in this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill-Skills).
 
