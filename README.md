@@ -79,6 +79,9 @@ cd Ctx2Skill
 Download the CL-Bench dataset from this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill) files and place them in the project root:
 - `CL-bench-context-dedup.jsonl` — deduplicated contexts (used for skill generation)
 - `CL-bench-with-task-delimiter.jsonl` — tasks with delimiters (used for evaluation)
+- Evaluation logs and responses from GPT-4.1, GPT-5.1, and GPT-5.2.
+
+We also provide our generated reasoner skills at this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill-Skills).
 
 ### Running the Self-Play Loop
 
@@ -89,11 +92,11 @@ export OPENAI_API_KEY="your-api-key"
 
 # Run the self-play skill discovery loop
 python selfplay_loop.py \
-    --challenger-model gpt-4.1 \
-    --reasoner-model gpt-4.1 \
+    --challenger-model gpt-5.2 \
+    --reasoner-model gpt-5.2 \
     --judge-model gpt-5.1 \
-    --proposer-model gpt-4.1 \
-    --generator-model gpt-4.1 \
+    --proposer-model gpt-5.2 \
+    --generator-model gpt-5.2 \
     --input ./CL-bench-context-dedup.jsonl \
     --output outputs/loop_data/loop_output.jsonl \
     --num-iterations 5 \
@@ -106,7 +109,7 @@ python selfplay_loop.py \
 
 ```bash
 python infer.py \
-    --model gpt-4.1 \
+    --model gpt-5.2 \
     --input ./CL-bench-with-task-delimiter.jsonl \
     --workers 32 \
     --skills-dir skills-output/reasoner \
