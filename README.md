@@ -60,7 +60,7 @@ Evaluated on four context learning tasks from CL-bench, Ctx2Skill consistently i
 
 We conduct our experiments using the API from newapi for GPT-4.1, and azure api for GPT-5.1 and GPT-5.2. We also provide the logs and generated responses, e.g., Ctx2Skill - GPT-4.1 and GPT-4.1, in this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill) for reproducibility and analysis.
 
-**Inference stability**: GPT-5.2 > GPT-4.1 > GPT-5.1. We recommend GPT-5.2 for reproduction, as it yields the most consistent results during our early experiments. We also provide our generated skills in this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill-Skills).
+We recommend GPT-5.2 for reproduction, as it yields the most consistent results during our early experiments. We also provide our generated skills in this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill-Skills).
 
 ## Quick Start
 
@@ -82,8 +82,6 @@ Download the CL-Bench dataset from this [link](https://huggingface.co/datasets/s
 - `CL-bench-context-dedup.jsonl` — deduplicated contexts (used for skill generation)
 - `CL-bench-with-task-delimiter.jsonl` — tasks with delimiters (used for evaluation)
 - Evaluation logs and responses from GPT-4.1, GPT-5.1, and GPT-5.2.
-
-We also provide our generated and evolved reasoner skills in this [link](https://huggingface.co/datasets/ssz1111/Ctx2Skill-Skills).
 
 ### Running the Self-Play Loop
 
