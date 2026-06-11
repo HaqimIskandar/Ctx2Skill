@@ -6,7 +6,7 @@
 
 <p align="center">
 <a href="https://arxiv.org/abs/2604.27660">
-<img alt="Static Badge" src="https://img.shields.io/badge/arXiv-FaithLens-red"></a>
+<img alt="Static Badge" src="https://img.shields.io/badge/arXiv-Ctx2Skill-red"></a>
 <a href="https://huggingface.co/collections/ssz1111/ctx2skill">
 <img alt="Static Badge" src="https://img.shields.io/badge/Dataset-HuggingFace-yellow"></a>
 <a href="https://huggingface.co/papers/2604.27660">
