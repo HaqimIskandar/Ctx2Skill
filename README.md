@@ -1,5 +1,17 @@
-# Ctx2Skill: From Context to Skills
 
+
+<h1 align="center"> 
+    Ctx2Skill: From Context to Skills
+</h1>
+
+<p align="center">
+<a href="https://arxiv.org/abs/2604.27660">
+<img alt="Static Badge" src="https://img.shields.io/badge/arXiv-FaithLens-red"></a>
+<a href="https://huggingface.co/collections/ssz1111/ctx2skill">
+<img alt="Static Badge" src="https://img.shields.io/badge/Dataset-HuggingFace-yellow"></a>
+<a href="https://huggingface.co/papers/2604.27660">
+<img alt="Static Badge" src="https://img.shields.io/badge/DailyPaper-HuggingFace-blue"></a>
+</p>
 
 > **Can Language Models Learn from Context Skillfully?**
 
